@@ -1,5 +1,11 @@
 ### Jenkins
 
+This is a learning note from Shang Gui Gu (尚硅谷) from  P287 - P294.
+https://www.bilibili.com/video/BV1dQ4y1A75e?p=296&spm_id_from=pageDriver&vd_source=a788bdd4d7cdd9dfe02852346d523cb9
+
+14.07.2022
+
+
 > Manual:
 >
 > 1. install maven and set env variable 
