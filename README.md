@@ -4,7 +4,7 @@
 >
 > 1. install maven and set env variable 
 >
->    ![image-20220714143917668](images\image-20220714143917668.png)
+>    ![image-20220714143917668](images/image-20220714143917668.png)
 >
 > 2. in your project => cmd => `mvn clean package`
 >
@@ -96,7 +96,7 @@
 
          > start background (without showing the log)
          >
-         > ![image-20220714150803806](images\image-20220714150803806.png)
+         > ![image-20220714150803806](images/image-20220714150803806.png)
          >
          > - enter
 
@@ -104,11 +104,11 @@
 
       6. http://ip:8080
 
-         ![image-20220714151027238](images\image-20220714151027238.png)
+         ![image-20220714151027238](images/image-20220714151027238.png)
 
          7. get password : cat /root/.jenkins/secrets/initialAdminPassword
 
-            ![image-20220714151322913](images\image-20220714151322913.png)
+            ![image-20220714151322913](images/image-20220714151322913.png)
 
             > Tips: download is slow in China, please set country mirror site
             >
@@ -118,26 +118,26 @@
             >
             > sed -i 's/http:\/\/updates.jenkins-ci.org\/download/https:\/\/mirrors.tuna.tsinghua.edu.cn\/jenkins/g' default.json && sed -i 's/https:\/\/www.google.com/https:\/\/www.baidu.com/g' default.json
 
-            ![image-20220714151646263](images\image-20220714151646263.png)
+            ![image-20220714151646263](images/image-20220714151646263.png)
 
          8. create user eg mysql
 
-         9. ![image-20220714155211467](images\image-20220714155211467.png)
+         9. ![image-20220714155211467](images/image-20220714155211467.png)
 
-         10. ![image-20220714155228523](images\image-20220714155228523.png)
+         10. ![image-20220714155228523](images/image-20220714155228523.png)
 
 #### Settings
 
 - Global Tool Configuration
   - JDK - uncheck install automatically
     - which jdk
-    - ![image-20220714160522896](images\image-20220714160522896.png)
+    - ![image-20220714160522896](images/image-20220714160522896.png)
   - Maven
     - which maven
-    - ![image-20220714160617502](images\image-20220714160617502.png)
+    - ![image-20220714160617502](images/image-20220714160617502.png)
   - Git
     - which git
-    - ![image-20220714160752383](images\image-20220714160752383.png)
+    - ![image-20220714160752383](images/image-20220714160752383.png)
 
 #### Start Automation
 
@@ -167,13 +167,13 @@
 
 3. In jenkin dashboard => new item => choose freesyle project
 
-   ![image-20220714161540704](images\image-20220714161540704.png)
+   ![image-20220714161540704](images/image-20220714161540704.png)
 
-   ![image-20220714162625806](images\image-20220714162625806.png)
+   ![image-20220714162625806](images/image-20220714162625806.png)
 
 4. Choose Build => shell
 
-   ![image-20220714162729037](images\image-20220714162729037.png)
+   ![image-20220714162729037](images/image-20220714162729037.png)
 
    ```shell
    #!/bin/bash
@@ -277,11 +277,11 @@
 
 6. dashboard:
 
-   ![image-20220714163839828](images\image-20220714163839828.png)
+   ![image-20220714163839828](images/image-20220714163839828.png)
 
 7. `service docker start` and Build to work now
 
-   ![image-20220714163937514](images\image-20220714163937514.png)
+   ![image-20220714163937514](images/image-20220714163937514.png)
 
-![image-20220714192513669](images\image-20220714192513669.png)
+![image-20220714192513669](images/image-20220714192513669.png)
 
